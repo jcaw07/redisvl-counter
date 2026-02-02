@@ -3,8 +3,8 @@ import requests
 import pandas as pd
 from datetime import datetime, timedelta
 
-CSV_PATH = "redisvl_downloads.csv"
-PACKAGE_NAME = "redisvl"
+CSV_PATH = "langgraph_checkpoint_redis_downloads.csv"
+PACKAGE_NAME = "langgraph-checkpoint-redis"
 
 def fetch_overall_data(package_name, with_mirrors=False):
     """
